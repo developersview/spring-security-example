@@ -7,6 +7,6 @@ import com.developersview.SpringSecurityExample.model.User;
  * @Date 31/07/22
  */
 public interface UserService {
-    void User(User user);
+    void save(User user);
     User findByUserName(String username);
 }
